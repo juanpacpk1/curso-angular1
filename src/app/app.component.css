@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 header { 
+	padding: 30px 0;
     background: rgba(18, 24, 41, 0.8);
     font-family: 'Open Sans', sans-serif;
 }
@@ -13,9 +14,6 @@ header {
     margin: auto;
 }
 
-header {
-	padding: 30px 0;
-}
 
 header .container {
 	display: flex;
@@ -94,10 +92,9 @@ section button:hover {
 	background-color: darkslategray;
 }
 
-/*.botonTab {
+.botonTab {
 	background-color: #8900d8;
 }
-/*
 
 /* ---- ----- ----- cards ----- ----- ----- */
 
