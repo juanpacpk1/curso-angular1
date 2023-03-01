@@ -37,7 +37,6 @@ section form {
 
 section button {
 	color: aliceblue;
-	background: rgba(136, 0, 199, 0.925);
 	border: none;
 	border-radius: 0.31em;
 	padding: 0.93em 1.87em;
@@ -49,10 +48,41 @@ section button {
 	height: 56px;
 } 
 
-section button:hover {
+.button-NoSelected {
+	background-color: rgba(136, 0, 199, 0.925);
+}
+
+.button-Selected {
+	background-color: firebrick;
+}
+
+/*section button:hover {
 	background-color: darkslategray;
 }
 
 .botonTab {
 	background-color: #8900d8;
+}
+*/
+
+.wrapperCards .container {
+
+	Display: Flex;
+	Gap: 16px;
+	flex-wrap: wrap;
+	align-items: flex-start;
+	}
+
+
+.card {
+	background-color: #323B54;
+}
+
+.contenido {
+	font-family: 'Poppins';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 24px;
+	color: #FFF;
 }
