@@ -56,7 +56,7 @@ section button:hover {
 .wrapperCards .container {
 
 	Display: Flex;
-	Gap: 16px;
+	Gap: 15px;
 	flex-wrap: wrap;
 	align-items: flex-start;
 	}
